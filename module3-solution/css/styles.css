@@ -59,7 +59,9 @@ section {
     padding: 0;
 }
 
-
+section p {
+    padding: 0 6px 4px 6px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
