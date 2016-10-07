@@ -16,11 +16,11 @@ function LunchController($scope) {
       if ($scope.lunchmenu.length === 0){
         $scope.cout = "input lunch meun first";
       }
-      else if($scope.lunchmenu.length > 4){
-        $scope.cout = "Too Much!";
+      else if($scope.lunchmenu.length <= 3){
+        $scope.cout = "Enjoy";
       }
      else{
-        $scope.cout = "Enjoy";
+        $scope.cout = "Too much";
       }
 
   $scope.lunchmenu = "";
